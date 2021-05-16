@@ -1,7 +1,9 @@
 # boundaryfill_opengl
 
 For Mac:
-g++ main.cpp -o main -framework OpenGL -framework GLUT
+g++ boundaryFill.cpp -o boundaryFill -framework OpenGL -framework GLUT
+./boundaryFill
 
 For Linux:
-g++ main.cpp -o main -lglut -lGLU -lGL
+g++ boundaryFill.cpp -o boundaryFill -lglut -lGLU -lGL
+boundaryFill
